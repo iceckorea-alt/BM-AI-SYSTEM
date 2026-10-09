@@ -10,10 +10,13 @@
 2. GitHub Private Repository `iceckorea-alt/BM-AI-SYSTEM`
    - AI 운영규칙·Skills·자동화·연동문서
 3. Airtable `BM_ACCESS_REGISTRY`
-   - 계정·SNS·서비스 접근 기준정보
+   - `계정정보`: 계정·SNS·서비스 접근 기준정보
+   - `접근권한`: 사람 직원·AI 직원별 시스템 접근 확인대장
 4. 업무에 필요한 경우 Docswave / Canva / Gmail / Google Calendar
 
 접근권한이 없는 시스템은 우회하지 않는다. '자료가 없다'고 단정하지 말고 접근권한 부족으로 보고한다.
+
+새 직원·새 AI를 실제 투입하기 전에는 Airtable `접근권한` 테이블에 필요한 시스템의 읽기/편집/관리 수준을 확인·기록한다.
 
 ## 2. 새 AI의 첫 실행
 1. Google Shared Drive `BM` 루트의 `BM_STARTER.md`를 읽는다.

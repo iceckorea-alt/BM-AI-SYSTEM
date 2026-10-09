@@ -31,16 +31,17 @@
 2. GitHub main에 DIGITAL / AGENTS / PROJECT_READ_TEMPLATE이 존재하는가
 3. GitHub 운영문서와 실제 Shared Drive 경로가 일치하는가
 4. Sheets의 모든 프로젝트 행에서 Drive 폴더와 PROJECT_READ 링크가 열리는가
-5. Drive의 실제 프로젝트가 INDEX에 빠짐없이 등록됐는가
-6. INDEX 상태와 READ 상태가 일치하는가
-7. READ의 핵심 원본 링크가 살아 있는가
-8. 루트나 공통폴더에 구형 AI 규칙의 중복 공식본이 남아 있지 않은가
-9. 브랜드·공통 READ가 구형 STARTER/INDEX/AGENTS 링크를 참조하지 않는가
-10. Airtable에 비밀번호·OTP·복구코드가 저장되지 않았는가
-11. 담당 AI·수정자·행 버전 규칙이 지켜지는가
-12. GitHub Private / Shared Drive / Airtable 접근권한이 실제 직원·에이전트에게 부여돼 있는가
-13. 동일 파일명·동일 자료 중복 후보가 새로 생기지 않았는가
-14. 종료 프로젝트의 READ와 INDEX가 종료 상태로 동기화돼 있는가
+5. 2026 정규 프로젝트가 `프로젝트` 탭에 빠짐없이 등록됐는가
+6. 과거 프로젝트성 폴더가 `레거시_폴더` 탭에서 위치 추적 가능한가
+7. INDEX 상태와 READ 상태가 일치하는가
+8. READ의 핵심 원본 링크가 살아 있는가
+9. 루트나 공통폴더에 구형 AI 규칙의 중복 공식본이 남아 있지 않은가
+10. 브랜드·공통 READ가 구형 STARTER/INDEX/AGENTS 링크를 참조하지 않는가
+11. Airtable에 비밀번호·OTP·복구코드가 저장되지 않았는가
+12. 담당 AI·수정자·행 버전 규칙이 지켜지는가
+13. GitHub Private / Shared Drive / Airtable 접근권한이 실제 직원·에이전트에게 부여돼 있는가
+14. 동일 파일명·동일 자료 중복 후보가 새로 생기지 않았는가
+15. 종료 프로젝트의 READ와 INDEX가 종료 상태로 동기화돼 있는가
 
 ## 이상 발견 시
 - 안전하게 바로잡을 수 있는 링크·표기·단일 원본 불일치는 즉시 수정한다.

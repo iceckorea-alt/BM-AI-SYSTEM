@@ -10,3 +10,7 @@ BM Digital 1.0의 AI 운영 시스템 공식 원본 저장소입니다.
 - integrations/: API·MCP·외부시스템 연동 문서
 
 공식 원본 구분: GitHub=AI 운영 / Google Drive=실무자료+실제 PROJECT_READ / Google Sheets=BM_PROJECT_INDEX / Airtable=BM_ACCESS_REGISTRY / Docswave=행정·결재
+
+## 운영 보조문서
+- `governance/AGENT_ONBOARDING.md` — 새 직원·새 AI 시작 절차와 접근조건
+- `governance/SYSTEM_HEALTH_CHECK.md` — 구조·링크·권한·중복·상태 점검 기준

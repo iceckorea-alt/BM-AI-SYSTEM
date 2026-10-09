@@ -2,7 +2,8 @@
 
 **공식 템플릿:** GitHub `BM-AI-SYSTEM/templates/PROJECT_READ_TEMPLATE.md`  
 **실제 PROJECT_READ:** 각 Google Drive 프로젝트 폴더  
-**역할:** 프로젝트 공용 현재 상태(Project Memory File)
+**역할:** 프로젝트 공용 현재 상태(Project Memory File)  
+**READ Schema:** v1.1
 
 > PROJECT_READ는 프로젝트의 기억과 연결정보를 관리하며 공식 계약·공문·결재·최종 승인 원본을 대체하지 않는다.
 
@@ -77,7 +78,8 @@
 | YYYY-MM-DD | 프로젝트 생성 | 최초 프로젝트 구조 생성 | 신규 프로젝트 | 사용자 |
 
 ## 작성 원칙
-- 기본 필드는 유지한다.
+- 위 기본 필드는 유지하며 의미를 임의로 바꾸지 않는다.
+- 프로젝트 특성상 필요한 추가 섹션은 허용한다.
 - 프로젝트 특성상 필요한 추가 섹션은 만들 수 있다.
 - 확인되지 않은 값은 추정하지 않고 `미확정`으로 둔다.
 - 수정 직전에 최신 READ를 확인한다.

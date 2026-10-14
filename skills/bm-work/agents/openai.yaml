@@ -1,0 +1,4 @@
+interface:
+  display_name: "비엠업무"
+  short_description: "BM 최신 규정으로 프로젝트를 찾고 수행하고 저장하는 업무 도우미"
+  default_prompt: "$bm-work 비엠에 접속하고 종료·취소를 제외한 프로젝트와 다음 할 일을 보여줘."

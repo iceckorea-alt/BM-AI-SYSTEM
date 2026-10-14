@@ -14,3 +14,5 @@ BM Digital 1.0의 AI 운영 시스템 공식 원본 저장소입니다.
 ## 운영 보조문서
 - `governance/AGENT_ONBOARDING.md` — 새 직원·새 AI 시작 절차와 접근조건
 - `governance/SYSTEM_HEALTH_CHECK.md` — 구조·링크·권한·중복·상태 점검 기준
+
+- `templates/PROJECT_RESULT_REPORT_TEMPLATE.md` — 프로젝트 마감 시 결과보고서 DOCX 작성·마감요청 기준

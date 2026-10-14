@@ -3,6 +3,8 @@
 **역할:** BM 프로젝트 마감 시 결과보고서(DOCX) 생성 기준  
 **실제 결과보고서 형식:** DOCX 기본  
 **실제 저장 위치:** 각 프로젝트 `05_성과·결과`  
+**공통 DOCX 표준서식:** Google Shared Drive `BM/00_BM공통/03_공통규정·서식/BM_프로젝트_결과보고서_표준서식.docx`  
+**공통 DOCX 파일:** https://docs.google.com/document/d/1BIyzV1UgksKxBTdF66laUzh5SHRHqOXK/edit  
 **권장 파일명:** `YYYYMMDD_결과보고서_프로젝트명.docx`
 
 > 외부기관이 별도 결과보고·실적보고·정산 서식 또는 HWP/HWPX/PDF 제출형식을 지정한 경우 외부기관 기준을 우선한다.

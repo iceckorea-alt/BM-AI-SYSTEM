@@ -3,6 +3,7 @@
 모든 규정 변경을 여기에 한 줄씩 남긴다(최신이 위). 형식: `날짜 · 버전 · 결정자·작성자(실명) · 내용`. 큰 개편은 `archive/MIGRATION_*.md`에 상세 경위를 둔다. 이 파일은 평소 읽지 않는다.
 
 ## v3.1 — 2026-10-21 · 결정 대표 · 작성 대표 (Claude 기록)
+- (점검) 쓰기 권한 없는 AI의 저장 절차(붙여넣기 제시+미완료 보고), '담당 AI'·'AI 직원' 표현 정리, INDEX 담당자=READ 책임자 일치, 접근자 점검 항목 추가
 - (추가) Drive `BM_STARTER`에 0장 'AI 필수 규칙' 신설 — GPT·Gemini 등 GitHub를 못 여는 AI도 STARTER만 읽으면 같은 규칙 적용. CORE 변경 시 0장 동기화 의무(BM_CORE·HEALTH_CHECK), Gemini 설정 방법(ONBOARDING)
 READ는 현재값만, 이력은 LOG로. 기록은 실명. 상세: `archive/MIGRATION_2026-10-21.md` 7장
 - `BM_DIGITAL_1.0.md` 1장: 4대 목표(끊김 없는 인계·즉시 파악·다음 준비·최소 토큰) 명시, LOG·부록 역할 추가

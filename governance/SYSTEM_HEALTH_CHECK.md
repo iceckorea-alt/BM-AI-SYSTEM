@@ -6,6 +6,8 @@
 - [ ] Drive 루트에 `BM_STARTER`, `BM_PROJECT_INDEX`, 00_BM공통, 01_BM서울, 02_BM인천, 98_아카이브, 99_시스템백업만 있다
 - [ ] STARTER가 BM_CORE raw 주소와 현재 규정 버전을 안내한다
 - [ ] STARTER 0장(AI 필수 규칙 요약)이 현재 BM_CORE와 어긋나지 않는다
+- [ ] 공유드라이브·STARTER·INDEX 접근자가 모두 STARTER 2장 인원 목록 또는 관리 계정으로 설명된다
+- [ ] INDEX `담당자`가 각 READ 1장 참여(책임자)와 같다
 - [ ] GitHub raw 주소로 BM_CORE·OPS·템플릿이 열린다
 - [ ] 구형 운영문서가 archive·99_시스템백업에만 있고 현재 규정으로 혼동되지 않는다
 - [ ] 같은 규칙이 두 파일 이상에 중복 서술되지 않았다

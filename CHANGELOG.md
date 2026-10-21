@@ -1,6 +1,14 @@
 # CHANGELOG — BM-AI-SYSTEM 규정 변경기록
 
-모든 규정 변경을 여기에 한 줄씩 남긴다(최신이 위). 형식: `날짜 · 버전 · 작성자코드 · 내용`. 큰 개편은 `archive/MIGRATION_*.md`에 상세 경위를 둔다. 이 파일은 평소 읽지 않는다.
+모든 규정 변경을 여기에 한 줄씩 남긴다(최신이 위). 형식: `날짜 · 버전 · 결정자·작성자(실명) · 내용`. 큰 개편은 `archive/MIGRATION_*.md`에 상세 경위를 둔다. 이 파일은 평소 읽지 않는다.
+
+## v3.1 — 2026-10-21 · 결정 대표 · 작성 대표 (Claude 기록)
+READ는 현재값만, 이력은 LOG로. 기록은 실명. 상세: `archive/MIGRATION_2026-10-21.md` 7장
+- `BM_DIGITAL_1.0.md` 1장: 4대 목표(끊김 없는 인계·즉시 파악·다음 준비·최소 토큰) 명시, LOG·부록 역할 추가
+- `BM_CORE.md`: 작성자 코드 폐지 → 실명 + `(도구명 기록)`, AI는 직원이 아닌 도구, 6장 READ/LOG 분리·긴 파일 분리(부록) 규칙
+- `PROJECT_READ_TEMPLATE.md` Schema v2.1: 7장 변경이력·8장 보관 삭제, LOG 문서 서식 추가, 부록은 별도 문서
+- OPS_PROJECT·OPS_ACCESS·OPS_CLOSING·AGENT_ONBOARDING·SYSTEM_HEALTH_CHECK·퀵가이드·`skills/bm-work`: 실명 기록·LOG 반영
+- Drive: 프로젝트별 LOG 문서 5개 생성(기존 이력 이관), READ 5개 v2.1, 마포 부록 분리, INDEX 수정자 실명화, STARTER 2장 인원 목록
 
 ## v3.0 — 2026-10-21 · 결정 J · 작성 J·CL
 경량화·다수 직원/다수 AI 전제 개편. 상세: `archive/MIGRATION_2026-10-21.md`

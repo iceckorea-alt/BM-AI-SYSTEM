@@ -67,4 +67,4 @@ AI 규정=GitHub / 프로젝트 목록=Sheets `BM_PROJECT_INDEX` / 프로젝트 
 | 사용법 안내(`매뉴얼`·`도움말` 등) | `guides/BM_AI_USER_QUICK_GUIDE.md` |
 | 상위 원칙·우선순위 충돌 판단 | `governance/BM_DIGITAL_1.0.md` |
 
-읽기 주소: `https://raw.githubusercontent.com/iceckorea-alt/BM-AI-SYSTEM/main/` + 위 경로. 규정 변경 기록은 `CHANGELOG.md`.
+읽기 주소: `https://raw.githubusercontent.com/iceckorea-alt/BM-AI-SYSTEM/main/` + 위 경로. 규정 변경 기록은 `CHANGELOG.md`. 이 문서를 바꾸면 같은 날 Drive `BM_STARTER` 0장(모든 AI용 필수 규칙 요약)도 맞춘다(시스템관리).

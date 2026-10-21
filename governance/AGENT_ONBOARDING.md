@@ -10,6 +10,8 @@
 현재 설정 위치
 - Claude: 플러그인 `비엠업무`(호출: `/비엠업무` 또는 '비엠접속'·'비엠업무'·'BM접속'). 본문 원본은 `skills/bm-work/SKILL.md`.
 - ChatGPT(Alex): ChatGPT 프로젝트·맞춤 지침에 위 문장을 넣는다. Codex용 스킬은 `skills/bm-work`.
+- Gemini: Gem 지침(또는 Workspace 사용자 지침)에 위 문장을 넣는다. Google Drive 접근이 켜져 있어야 STARTER를 읽는다.
+- 공통: GitHub 링크를 못 여는 AI도 STARTER 0장(필수 규칙 요약)만으로 같은 규칙이 적용된다. Drive 접근 자체가 없는 AI는 BM 업무에 쓰지 않는다.
 - 새 AI: 위 문장을 넣고, 아래 3장 콜드스타트 테스트를 통과한 뒤 투입한다.
 
 ## 2. 투입 체크리스트

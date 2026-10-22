@@ -4,6 +4,7 @@
 
 ## 1. 시작 순서
 `BM_STARTER(Drive) → BM_CORE → [업무별 OPS] → BM_PROJECT_INDEX → PROJECT_READ(0장 요약 기준) → 필요한 원본만` (LOG는 경위가 필요할 때만)
+- 시스템 점검은 다른 순서: `BM_STARTER(현재 규정 버전) → CHANGELOG 해당 최신 버전 항목만 → BM_CORE → SYSTEM_HEALTH_CHECK`. 일반 업무에서는 CHANGELOG·MIGRATION을 읽지 않는다(경위가 필요할 때만).
 - 같은 채팅에서 이미 읽은 규정은 다시 읽지 않는다. 수정 직전에는 대상 READ·INDEX 행만 최신본을 다시 읽는다.
 - 채팅 기억은 공식 기억이 아니다. 새 채팅은 공식 원본에서 다시 시작한다.
 - 문서는 링크로 연다: STARTER·INDEX(`프로젝트`·`공통문서` 탭)의 링크를 따라가고 Drive 전체 검색을 하지 않는다. 지도에 없을 때만 제목으로 찾고, 찾은 문서는 `업데이트요청`으로 지도에 등록한다.

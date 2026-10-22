@@ -5,15 +5,16 @@ description: "비엠접속·비엠업무·BM접속, BM(비엠서울·비엠인�
 
 # 비엠업무 (BM 업무 진입 스킬)
 
-스킬 v3.1 · 2026-10-21 · 이 스킬은 '어디서부터 읽는가'만 안내한다. 규칙 원본은 GitHub `governance/BM_CORE.md`이며, 이 스킬과 다르면 원본을 따른다.
+스킬 v3.3 · 2026-10-23 · 이 스킬은 '어디서부터 읽는가'만 안내한다. 규칙 원본은 GitHub `governance/BM_CORE.md`이며, 이 스킬과 다르면 원본을 따른다.
 
 ## 시작
-1. Google Drive 연결 도구로 공유드라이브 `BM` 루트의 `BM_STARTER`를 읽는다(제목이 .md여도 Google Docs). 개인 Drive·백업·LEGACY 파일을 대신 읽지 않는다.
+1. Google Drive 연결 도구로 공유드라이브 `BM` 루트의 `BM_STARTER`를 읽는다(Google Docs). 개인 Drive·백업·LEGACY 파일과 98·99 폴더를 대신 읽지 않는다.
 2. STARTER가 안내하는 raw 주소로 `governance/BM_CORE.md`를 읽는다. github.com 페이지가 아니라 raw 주소를 쓴다.
 3. INDEX `프로젝트` 탭만 읽어 진행 프로젝트를 파악한다. 접속 단계에서 각 READ를 열지 않는다.
 4. 사용자가 프로젝트를 지정하면 그 READ를 읽고 0장 요약을 기준으로 판단한다. LOG와 원본은 필요할 때만 연다.
 5. 업무 종류에 맞는 OPS 파일만 추가로 읽는다(BM_CORE 9장). 같은 채팅에서 이미 읽은 규정은 다시 읽지 않는다.
-6. 읽지 못한 것은 '못 읽음'으로 보고하고 추정하지 않는다.
+6. 프로젝트가 아닌 문서(브랜드 GUIDE·플랫폼 READ·SNS 등)는 INDEX `공통문서` 탭 링크로 연다. Drive 전체 검색은 지도에 없을 때만 한다.
+7. 읽지 못한 것은 '못 읽음'으로 보고하고 추정하지 않는다.
 
 ## 시작 보고 (짧게)
 - 읽기 성공·실패: STARTER / CORE / INDEX (/ READ)

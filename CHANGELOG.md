@@ -10,6 +10,7 @@
 - `SYSTEM_HEALTH_CHECK.md`: 지도 등록·단일 원본·`.md`·0장 요약·레거시·인증파일 점검 6항목
 - `skills/bm-work`: 공통문서 탭 링크로 열기, 98·99 제외
 - Drive: STARTER v3.3 동기화·이름 `.md` 제거, INDEX 공통문서 탭, 홍대 캔버스 SNS 지침 Google 문서 전환(GUIDE·부록), 레거시 브랜드 문서 아카이브, 플랫폼 LOG 신설
+- 10-23 시스템 점검: INDEX `다음 할 일`을 각 READ 0장 기준으로 재동기화, STARTER의 시스템관리 표현을 `AI`→`도구`로 정리, `skills/bm-work` 접속 화면을 INDEX 우선·소속(운영단위)·담당자 표시 방식으로 보완
 
 ## v3.2 — 2026-10-22 · 결정 대표 · 작성 대표 (Claude 기록)
 프로젝트 ID를 조직별 코드로 전환.

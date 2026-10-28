@@ -5,12 +5,12 @@
 ## 1. 모든 AI에 넣을 시작 지시 (부트스트랩)
 어떤 AI든 BM 업무를 하려면 설정(사용자 지침·프로젝트 지침·플러그인·스킬)에 아래 뜻이 들어가 있어야 한다. 이 지시가 없으면 조약이 적용되지 않는다.
 
-> BM 업무는 Google Shared Drive `BM` 루트의 `BM_STARTER`를 먼저 읽고, 안내에 따라 GitHub `BM_CORE`를 읽은 뒤 시작한다. 기록은 지시한 사람의 실명으로 하고, 내가 대신 적은 줄에는 실명 뒤에 `(도구명 기록)`을 붙인다. 접근할 수 없는 시스템은 추정하지 말고 실패로 보고한다.
+> BM 업무는 Google Shared Drive `BM` 루트의 `BM_STARTER`를 먼저 읽고 그 0장 규칙대로 일한다(매번 읽는 규칙은 0장뿐, GitHub `BM_CORE`는 세부가 필요할 때만). 조회만 할 때는 INDEX `접속요약`(또는 `열린할일`) 탭만 읽는다. 할 일은 INDEX `할일` 탭에만 쓴다. 기록은 지시한 사람의 실명으로 하고, 내가 대신 적은 줄에는 실명 뒤에 `(도구명 기록)`을 붙인다. 접근할 수 없는 시스템은 추정하지 말고 실패로 보고한다.
 
 현재 설정 위치
 - Claude: 플러그인 `비엠업무`(호출: `/비엠업무` 또는 '비엠접속'·'비엠업무'·'BM접속'). 본문 원본은 `skills/bm-work/SKILL.md`.
-- ChatGPT(Alex): ChatGPT 프로젝트·맞춤 지침에 위 문장을 넣는다. Codex용 스킬은 `skills/bm-work`.
-- Gemini: Gem 지침(또는 Workspace 사용자 지침)에 위 문장을 넣는다. Google Drive 접근이 켜져 있어야 STARTER를 읽는다.
+- ChatGPT(Alex): ChatGPT 프로젝트·맞춤 지침에 위 문장을 넣는다(2026-10-28 v3.5 반영 완료). Codex용 스킬은 `skills/bm-work`.
+- Gemini: Gem 지침(또는 Workspace 사용자 지침)에 위 문장을 넣는다(2026-10-28 v3.5 반영 완료). Google Drive 접근이 켜져 있어야 STARTER를 읽는다.
 - 공통: GitHub 링크를 못 여는 AI도 STARTER 0장(필수 규칙 요약)만으로 같은 규칙이 적용된다. Drive 접근 자체가 없는 AI는 BM 업무에 쓰지 않는다.
 - 새 AI: 위 문장을 넣고, 아래 3장 콜드스타트 테스트를 통과한 뒤 투입한다.
 

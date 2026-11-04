@@ -1,6 +1,6 @@
 # OPS_ACCESS — 계정·권한·보안
 
-규정 v3.1 · 2026-10-21 · 계정·SNS·접속정보, 권한 확인, 인증파일, 접근 실패를 다룰 때만 읽는다. Airtable Base·Table ID는 Drive `BM_STARTER`에만 둔다(Public GitHub 금지).
+규정 v3.9 · 2026-11-04 · 계정·SNS·접속정보, 권한 확인, 인증파일, 접근 실패를 다룰 때만 읽는다. Airtable Base·Table ID는 Drive `BM_STARTER`에만 둔다(Public GitHub 금지).
 
 ## 1. Airtable `BM_ACCESS_REGISTRY`
 - `계정정보`: 서비스명, 로그인 계정·업무용 이메일·GitHub 사용자명, 조직·워크스페이스, 접속주소, 상태, 최종 확인일, 비밀이 아닌 리소스 ID·설명.
@@ -29,5 +29,11 @@
 - 접근 실패를 이유로 중복 프로젝트·중복 파일을 새로 만들지 않는다.
 - 비공개 Drive·Airtable 자료를 검색엔진 등으로 우회 조회하지 않는다.
 
-## 6. Public GitHub
+## 6. info@ Gmail 접근
+- 직원은 info@ 비밀번호를 공유받지 않고 Gmail 위임으로 접근한다.
+- 위임 대상·해제는 Airtable `접근권한`에 기록한다.
+- info@에 연결된 메일 담당 AI 도구 1개는 BM_STARTER 2장에 지정한다. 다른 AI는 INDEX `신규메일` 탭으로 현황을 확인한다.
+- AI 도구의 연결 성공을 사람의 Gmail 위임 권한으로 확대 해석하지 않는다.
+
+## 7. Public GitHub
 저장소는 공개다. 직원 개인정보, 비공개 계정정보, Drive·Sheets·Airtable 리소스 ID, 인증정보를 커밋하지 않는다. 실수로 올렸다면 삭제 커밋만으로는 이력에 남으므로 대표에게 보고한다.

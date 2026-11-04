@@ -1,11 +1,11 @@
 # BM_CORE — BM AI 공통 조약
 
-규정 v3.7 · 2026-11-04 · BM 규칙의 세부 원본. 매번 읽는 규칙은 Drive `BM_STARTER` 0장이며, 이 문서는 0장에 없는 세부가 필요할 때 해당 장만 읽는다. 업무별 상세는 OPS 파일.
+규정 v3.8 · 2026-11-04 · BM 규칙의 세부 원본. 매번 읽는 규칙은 Drive `BM_STARTER` 0장이며, 이 문서는 0장에 없는 세부가 필요할 때 해당 장만 읽는다. 업무별 상세는 OPS 파일.
 
 ## 1. 시작 순서
 `BM_STARTER 0장(Drive) → INDEX 접속요약 → PROJECT_READ + 열린할일(그 프로젝트) → 필요한 원본만` (LOG는 경위가 필요할 때만, 이 문서·OPS는 세부가 필요할 때 해당 장만)
 - 시스템 점검은 다른 순서: `BM_STARTER(현재 규정 버전) → CHANGELOG 해당 최신 버전 항목만 → BM_CORE → SYSTEM_HEALTH_CHECK`. 일반 업무에서는 CHANGELOG·MIGRATION을 읽지 않는다(경위가 필요할 때만).
-- 조회만 할 때(`오늘 할 일`·`현황`·`누구 할 일`): STARTER 0장 → INDEX `접속요약` 탭(프로젝트별 우선 3개) 또는 `열린할일` 탭만 읽고 답한다.
+- 조회만 할 때(`오늘 할 일`·`현황`·`누구 할 일`): STARTER 0장 → INDEX `접속요약` 탭(프로젝트별 우선 3개) 또는 `열린할일` 탭만 읽고 답한다.\n- 전략·신규사업·조직방향 판단은 STARTER 0장 다음 저장소 루트 `BM_VISION.md`를 추가로 읽는다. 현재 계약·수탁·일정·예산·담당 등 사실은 INDEX·READ에서 확인하며, 일반 조회·범위가 정해진 개별 실무에서는 VISION을 읽지 않는다.
 - STARTER 0장은 이 문서의 핵심을 모두 담아야 한다. 이 문서를 바꾸면 같은 날 0장도 맞춘다(빠진 규칙이 없게).
 - 같은 채팅에서 이미 읽은 규정은 다시 읽지 않는다. 수정 직전에는 대상 READ·INDEX 행만 최신본을 다시 읽는다.
 - 채팅 기억은 공식 기억이 아니다. 새 채팅은 공식 원본에서 다시 시작한다.
@@ -78,6 +78,6 @@ AI 규정=GitHub / 프로젝트 목록=Sheets `BM_PROJECT_INDEX` / 공통 문서
 | 새 직원·새 AI 투입, 퇴사·부재 | `governance/AGENT_ONBOARDING.md` |
 | 정기 점검 | `governance/SYSTEM_HEALTH_CHECK.md` |
 | 사용법 안내(`매뉴얼`·`도움말` 등) | `guides/BM_AI_USER_QUICK_GUIDE.md` |
-| 상위 원칙·우선순위 충돌 판단 | `governance/BM_DIGITAL_1.0.md` |
+| BM 중장기 전략·신규사업·조직방향 판단 | 저장소 루트 `BM_VISION.md` |\n| 상위 원칙·우선순위 충돌 판단 | `governance/BM_DIGITAL_1.0.md` |
 
 읽기 주소: `https://raw.githubusercontent.com/iceckorea-alt/BM-AI-SYSTEM/main/` + 위 경로. 규정 변경 기록은 `CHANGELOG.md`. 이 문서를 바꾸면 같은 날 Drive `BM_STARTER` 0장(모든 AI용 필수 규칙 요약)도 맞춘다(시스템관리).

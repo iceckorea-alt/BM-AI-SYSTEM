@@ -1,6 +1,6 @@
 # AGENT_ONBOARDING — 새 직원·새 AI 투입, 퇴사·부재
 
-규정 v3.1 · 2026-10-21 · 사람이나 AI를 새로 투입·교체·회수할 때만 읽는다. 평소 업무 규칙은 `BM_CORE.md`.
+규정 v3.9 · 2026-11-04 · 사람이나 AI를 새로 투입·교체·회수할 때만 읽는다. 평소 업무 규칙은 `BM_CORE.md`.
 
 ## 1. 모든 AI에 넣을 시작 지시 (부트스트랩)
 어떤 AI든 BM 업무를 하려면 설정(사용자 지침·프로젝트 지침·플러그인·스킬)에 아래 뜻이 들어가 있어야 한다. 이 지시가 없으면 조약이 적용되지 않는다.
@@ -17,7 +17,7 @@
 ## 2. 투입 체크리스트
 1. 실명·역할 등록: Drive `BM_STARTER` 2장 인원 목록과 Airtable `접근권한`에 실명·역할·사용 AI 도구를 기록한다. AI는 인원 목록에 올리지 않는다(사람이 쓰는 도구).
 2. 계정: 직원은 개인 업무 계정으로 Drive·Sheets에 접속한다. `info@`는 메일 발송 전용이며 공용 로그인으로 쓰지 않는다.
-3. 권한 부여(대표 승인): Shared Drive `BM` 멤버, INDEX 편집, 필요 시 Airtable·Docswave·Canva·Calendar.
+3. 권한 부여(대표 승인): Shared Drive `BM` 멤버, INDEX 편집, 필요 시 Airtable·Docswave·Canva·Calendar. info@ 메일 업무가 필요하면 비밀번호 공유가 아니라 Gmail 위임으로 부여하고 OPS_MAIL 7장(사람이 하는 일)을 안내한다.
 4. Airtable `접근권한`에 실명·역할·실제 확인된 접근수준·허용 범위·확인일 기록 (`ops/OPS_ACCESS.md`).
 5. 역할 지정: 프로젝트 책임자·참여자를 READ 1장 `참여` 줄과 INDEX `담당자`에 반영.
 6. AI 부트스트랩 설정(1장) 후 콜드스타트 테스트(3장).
@@ -33,7 +33,7 @@
 ## 4. 퇴사·장기부재·AI 교체
 1. 담당 할 일·책임 프로젝트를 다른 사람에게 재배정하고 각 프로젝트 LOG에 남긴다.
 2. INDEX `담당자`를 갱신한다(시스템관리).
-3. Drive·Sheets·Airtable·Docswave·Canva 권한을 회수하고 Airtable `접근권한`을 갱신한다.
+3. Drive·Sheets·Airtable·Docswave·Canva 권한과 info@ Gmail 위임을 회수하고 Airtable `접근권한`을 갱신한다.
 4. 과거 LOG·READ의 실명 기록은 고치지 않는다(작성자 식별 유지). STARTER 인원 목록에서는 '퇴사'로 표시한다.
 
 ## 5. 접속 안내 문구

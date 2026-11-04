@@ -1,11 +1,11 @@
 # BM_CORE — BM AI 공통 조약
 
-규정 v3.8 · 2026-11-04 · BM 규칙의 세부 원본. 매번 읽는 규칙은 Drive `BM_STARTER` 0장이며, 이 문서는 0장에 없는 세부가 필요할 때 해당 장만 읽는다. 업무별 상세는 OPS 파일.
+규정 v3.9 · 2026-11-04 · BM 규칙의 세부 원본. 매번 읽는 규칙은 Drive `BM_STARTER` 0장이며, 이 문서는 0장에 없는 세부가 필요할 때 해당 장만 읽는다. 업무별 상세는 OPS 파일.
 
 ## 1. 시작 순서
-`BM_STARTER 0장(Drive) → INDEX 접속요약 → PROJECT_READ + 열린할일(그 프로젝트) → 필요한 원본만` (LOG는 경위가 필요할 때만, 이 문서·OPS는 세부가 필요할 때 해당 장만)
+`BM_STARTER 0장(Drive) → INDEX 접속요약 + 신규메일 → PROJECT_READ + 열린할일(그 프로젝트) → 필요한 원본만` (LOG는 경위가 필요할 때만, 이 문서·OPS는 세부가 필요할 때 해당 장만)
 - 시스템 점검은 다른 순서: `BM_STARTER(현재 규정 버전) → CHANGELOG 해당 최신 버전 항목만 → BM_CORE → SYSTEM_HEALTH_CHECK`. 일반 업무에서는 CHANGELOG·MIGRATION을 읽지 않는다(경위가 필요할 때만).
-- 조회만 할 때(`오늘 할 일`·`현황`·`누구 할 일`): STARTER 0장 → INDEX `접속요약` 탭(프로젝트별 우선 3개) 또는 `열린할일` 탭만 읽고 답한다.\n- 전략·신규사업·조직방향 판단은 STARTER 0장 다음 저장소 루트 `BM_VISION.md`를 추가로 읽는다. 현재 계약·수탁·일정·예산·담당 등 사실은 INDEX·READ에서 확인하며, 일반 조회·범위가 정해진 개별 실무에서는 VISION을 읽지 않는다.
+- 조회만 할 때(`오늘 할 일`·`현황`·`누구 할 일`): STARTER 0장 → INDEX `접속요약` 탭(프로젝트별 우선 3개) 또는 `열린할일` 탭 + `신규메일` 탭만 읽고 답한다.\n- 전략·신규사업·조직방향 판단은 STARTER 0장 다음 저장소 루트 `BM_VISION.md`를 추가로 읽는다. 현재 계약·수탁·일정·예산·담당 등 사실은 INDEX·READ에서 확인하며, 일반 조회·범위가 정해진 개별 실무에서는 VISION을 읽지 않는다.
 - STARTER 0장은 이 문서의 핵심을 모두 담아야 한다. 이 문서를 바꾸면 같은 날 0장도 맞춘다(빠진 규칙이 없게).
 - 같은 채팅에서 이미 읽은 규정은 다시 읽지 않는다. 수정 직전에는 대상 READ·INDEX 행만 최신본을 다시 읽는다.
 - 채팅 기억은 공식 기억이 아니다. 새 채팅은 공식 원본에서 다시 시작한다.
@@ -14,7 +14,7 @@
 
 ## 2. 원본 위치 (원본 1개 · 위치 1곳 · 링크는 여러 곳)
 사실 하나는 한 곳에만 값으로 적고, 다른 곳에는 링크만 둔다(INDEX `다음 할 일`·`접속요약`·`열린할일`은 `할일` 탭에서 수식으로 자동 계산되는 보기라 직접 쓰지 않는다).
-AI 규정=GitHub / 프로젝트 목록=Sheets `BM_PROJECT_INDEX` / 공통 문서 목록=INDEX `공통문서` 탭 / 프로젝트 기억=Drive `PROJECT_READ` / 할 일=INDEX `할일` 탭 / 사업 기회(프로젝트 전 단계: 기본계획·업무계획·공고)=INDEX `사업발굴` 탭, 원문·요약은 `00_BM공통/03_사업발굴` / 브랜드 정의=각 `_GUIDE` / 실무자료·산출물=Shared Drive `BM` / 계정·권한=Airtable `BM_ACCESS_REGISTRY` / 결재·인사·회계=Docswave / 디자인=Canva / 일정=Calendar / 대외소통=Gmail
+AI 규정=GitHub / 프로젝트 목록=Sheets `BM_PROJECT_INDEX` / 공통 문서 목록=INDEX `공통문서` 탭 / 프로젝트 기억=Drive `PROJECT_READ` / 할 일=INDEX `할일` 탭 / 사업 기회(프로젝트 전 단계: 기본계획·업무계획·공고)=INDEX `사업발굴` 탭, 원문·요약은 `00_BM공통/03_사업발굴` / 브랜드 정의=각 `_GUIDE` / 실무자료·산출물=Shared Drive `BM` / 계정·권한=Airtable `BM_ACCESS_REGISTRY` / 결재·인사·회계=Docswave / 디자인=Canva / 일정=Calendar / 대외소통=Gmail(원문) / 메일 처리 여부=INDEX `할일` 탭 / 메일 현황=INDEX `신규메일` 탭
 
 ## 3. 역할과 권한
 | 역할 | 할 수 있는 것 | 못 하는 것 |
@@ -74,6 +74,7 @@ AI 규정=GitHub / 프로젝트 목록=Sheets `BM_PROJECT_INDEX` / 공통 문서
 | 프로젝트 찾기·생성·INDEX·이동·파일명·시스템별 사용 | `governance/ops/OPS_PROJECT.md` |
 | 마감·결과보고·종료 | `governance/ops/OPS_CLOSING.md` + `templates/PROJECT_RESULT_REPORT_TEMPLATE.md` |
 | 계정·권한·Airtable·인증정보·보안 | `governance/ops/OPS_ACCESS.md` |
+| 메일 확인·분류·신규메일 탭 | `governance/ops/OPS_MAIL.md` |
 | READ·LOG 새로 만들기·구조 변경 | `templates/PROJECT_READ_TEMPLATE.md` |
 | 새 직원·새 AI 투입, 퇴사·부재 | `governance/AGENT_ONBOARDING.md` |
 | 정기 점검 | `governance/SYSTEM_HEALTH_CHECK.md` |

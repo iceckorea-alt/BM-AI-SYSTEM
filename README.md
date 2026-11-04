@@ -1,12 +1,13 @@
 # BM-AI-SYSTEM
 
-BM Digital 1.0의 AI 운영 규정 공식 원본 저장소. 현재 규정 v3.8 (2026-11-04).
+BM Digital 1.0의 AI 운영 규정 공식 원본 저장소. 현재 규정 v3.9 (2026-11-04).
 
-**AI는 `governance/BM_CORE.md`부터 읽는다.** 입구는 Google Shared Drive `BM` 루트의 `BM_STARTER`.
+**AI는 Google Shared Drive `BM` 루트의 `BM_STARTER` 0장부터 읽는다.** `governance/BM_CORE.md`는 0장에 없는 세부가 필요할 때만 해당 장을 읽는다.
 
 | 경로 | 내용 | 언제 읽나 |
 |---|---|---|
-| `governance/BM_CORE.md` | 공통 조약 세부 원본 | STARTER 0장에 없는 세부가 필요할 때 |\n| `BM_VISION.md` | BM 중장기 비전·사업구조 | 전략·신규사업·조직방향 판단 때 |
+| `governance/BM_CORE.md` | 공통 조약 세부 원본 | STARTER 0장에 없는 세부가 필요할 때 |
+| `BM_VISION.md` | BM 중장기 비전·사업구조 | 전략·신규사업·조직방향 판단 때 |
 | `governance/ops/` | 업무별 상세(프로젝트·마감·권한) | 해당 업무 때 |
 | `governance/BM_DIGITAL_1.0.md` | 상위 원칙·우선순위 | 원칙 판단 때 |
 | `governance/AGENT_ONBOARDING.md` | 사람·AI 투입·교체·회수 | 투입 때 |

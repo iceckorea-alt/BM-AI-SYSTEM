@@ -1,6 +1,6 @@
 # BM-AI-SYSTEM
 
-BM Digital 1.0의 AI 운영 규정 공식 원본 저장소. 현재 규정 v3.10 (2026-11-06).
+BM Digital 1.0의 AI 운영 규정 공식 원본 저장소. 현재 규정 v3.11 (2026-11-06).
 
 **AI는 Google Shared Drive `BM` 루트의 `BM_STARTER` 0장부터 읽는다.** `governance/BM_CORE.md`는 0장에 없는 세부가 필요할 때만 해당 장을 읽는다.
 

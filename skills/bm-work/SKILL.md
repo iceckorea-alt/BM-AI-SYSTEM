@@ -5,7 +5,7 @@ description: "비엠접속·비엠업무·BM접속, BM(비엠서울·비엠인�
 
 # 비엠업무 (BM 업무 진입 스킬)
 
-스킬 v3.10 · 2026-11-06 · 이 스킬은 '어디서부터 읽는가'만 안내한다. 규칙 원본은 GitHub `governance/BM_CORE.md`이며, 이 스킬과 다르면 원본을 따른다.
+스킬 v3.11 · 2026-11-06 · 이 스킬은 '어디서부터 읽는가'만 안내한다. 규칙 원본은 GitHub `governance/BM_CORE.md`이며, 이 스킬과 다르면 원본을 따른다.
 
 ## 시작
 1. Google Drive 연결 도구로 공유드라이브 `BM` 루트의 `BM_STARTER`를 읽는다(Google Docs). 개인 Drive·백업·LEGACY 파일과 98·99 폴더를 대신 읽지 않는다.

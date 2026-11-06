@@ -1,6 +1,6 @@
 # BM_CORE — BM AI 공통 조약
 
-규정 v3.9 · 2026-11-04 · BM 규칙의 세부 원본. 매번 읽는 규칙은 Drive `BM_STARTER` 0장이며, 이 문서는 0장에 없는 세부가 필요할 때 해당 장만 읽는다. 업무별 상세는 OPS 파일.
+규정 v3.10 · 2026-11-06 · BM 규칙의 세부 원본. 매번 읽는 규칙은 Drive `BM_STARTER` 0장이며, 이 문서는 0장에 없는 세부가 필요할 때 해당 장만 읽는다. 업무별 상세는 OPS 파일.
 
 ## 1. 시작 순서
 `BM_STARTER 0장(Drive) → INDEX 접속요약 + 신규메일 → PROJECT_READ + 열린할일(그 프로젝트) → 필요한 원본만` (LOG는 경위가 필요할 때만, 이 문서·OPS는 세부가 필요할 때 해당 장만)
@@ -15,7 +15,7 @@
 
 ## 2. 원본 위치 (원본 1개 · 위치 1곳 · 링크는 여러 곳)
 사실 하나는 한 곳에만 값으로 적고, 다른 곳에는 링크만 둔다(INDEX `다음 할 일`·`접속요약`·`열린할일`은 `할일` 탭에서 수식으로 자동 계산되는 보기라 직접 쓰지 않는다).
-AI 규정=GitHub / 프로젝트 목록=Sheets `BM_PROJECT_INDEX` / 공통 문서 목록=INDEX `공통문서` 탭 / 프로젝트 기억=Drive `PROJECT_READ` / 할 일=INDEX `할일` 탭 / 사업 기회(프로젝트 전 단계: 기본계획·업무계획·공고)=INDEX `사업발굴` 탭, 원문·요약은 `00_BM공통/03_사업발굴` / 브랜드 정의=각 `_GUIDE` / 실무자료·산출물=Shared Drive `BM` / 계정·권한=Airtable `BM_ACCESS_REGISTRY` / 결재·인사·회계=Docswave / 디자인=Canva / 일정=Calendar / 대외소통=Gmail(원문) / 메일 처리 여부=INDEX `할일` 탭 / 메일 현황=INDEX `신규메일` 탭
+AI 규정=GitHub / 프로젝트 목록=Sheets `BM_PROJECT_INDEX` / 공통 문서 목록=INDEX `공통문서` 탭 / 프로젝트 기억=Drive `PROJECT_READ` / 할 일=INDEX `할일` 탭 / 사업 기회(프로젝트 전 단계: 기본계획·업무계획·공고)=INDEX `사업발굴` 탭, 원문·요약은 `00_BM공통/03_사업발굴` / 브랜드 정의=각 `_GUIDE` / 실무자료·산출물=Shared Drive `BM` / 계정·권한=Airtable `BM_ACCESS_REGISTRY` / 결재·인사·회계=Docswave / 디자인=Canva / 일정=Calendar / 대외소통=Gmail(원문) / 메일 1차 수집=INDEX `메일수집` 탭(Apps Script 자동수집, 메일 담당 AI가 우선 읽음) / 메일 처리 여부=INDEX `할일` 탭 / 메일 현황=INDEX `신규메일` 탭
 
 ## 3. 역할과 권한
 | 역할 | 할 수 있는 것 | 못 하는 것 |

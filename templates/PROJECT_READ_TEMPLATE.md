@@ -18,7 +18,7 @@ READ Schema v2.2 · 2026-11-06 · READ·LOG·부록을 새로 만들거나 구�
 ---
 
 # YYYY_프로젝트명_READ
-READ Schema v2.1
+READ Schema v2.2
 
 ## 0. 요약 — YYYY-MM-DD 실명(도구)
 - 상태: 기획/진행/보류/마감요청/취소/종료 — 현재 단계 한 줄

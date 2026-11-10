@@ -1,6 +1,6 @@
 # BM-AI-SYSTEM
 
-BM Digital 1.0의 AI 운영 규정 공식 원본 저장소. 현재 규정 v3.14 (2026-11-07). AI 공지: `notices/`.
+BM Digital 1.0의 AI 운영 규정 공식 원본 저장소. 현재 규정 v3.15 (2026-11-11). AI 공지: `notices/`.
 
 현재 시스템 버전은 BM_CORE·Drive STARTER·CHANGELOG 기준이다. 각 문서 머리의 버전·날짜는 그 문서의 마지막 개정 기준이며, 내용 변경이 없는 문서는 이전 번호를 유지한다. BM_VISION·READ Schema·부록 Schema·플러그인 배포 버전은 별도 버전 체계다.
 

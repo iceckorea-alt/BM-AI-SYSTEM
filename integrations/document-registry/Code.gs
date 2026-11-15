@@ -70,7 +70,8 @@ function BM_upsert_(sheet, rows) {
     values[at-2]=row.map(BM_text_);
   }
   if(values.length+1>sheet.getMaxRows()) sheet.insertRowsAfter(sheet.getMaxRows(),values.length+1-sheet.getMaxRows());
-  sheet.getRange(2,1,values.length,9).setValues(values);
+  // 기존 표시값도 다시 쓸 때 수식으로 실행되지 않도록 텍스트 처리한다.
+  sheet.getRange(2,1,values.length,9).setValues(values.map(r=>r.map(BM_text_)));
   SpreadsheetApp.flush();
   const written=sheet.getRange(2,1,values.length,1).getDisplayValues().flat();
   if(written.some((id,i)=>id!==values[i][0])) throw new Error('파일ID 저장 재조회 실패');

@@ -25,4 +25,7 @@ Drive 문서 파일의 메타데이터를 중앙 Google Sheets에 기록한다. 
 중지: 설치자의 이 Apps Script 프로젝트에서 BM_sync 트리거만 삭제. 메일수집 자동화는 별도 프로젝트로 유지한다.
 
 공식 API 근거: [Advanced services](https://developers.google.com/apps-script/guides/services/advanced), [Drive files.list](https://developers.google.com/drive/api/reference/rest/v3/files/list), [Installable triggers](https://developers.google.com/apps-script/guides/triggers/installable).
+
+
+문서목록 N:Q는 소속·관련 업무/프로젝트·문서 종류·업무 단계 수동 분류다(v3.17). 기존 A:M 계약과 수집기의 A:I 갱신 범위는 유지한다. 신규 관측 문서의 비어 있는 분류는 찾기에서 미분류로 표시한다. 분류를 추정해 승인·현재본을 자동 확정하지 않는다. 공문 등록 원장·결재 데이터는 수집기가 수정하지 않는다.
 

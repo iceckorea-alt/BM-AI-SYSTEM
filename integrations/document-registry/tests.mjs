@@ -1,0 +1,32 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+let flushed=0;
+const ctx={console,SpreadsheetApp:{flush(){flushed++;}},Drive:{Files:{get(id){if(id==='missing')throw Error('403');return {id,name:'프로젝트',parents:['root']};}}}};
+vm.createContext(ctx);vm.runInContext(fs.readFileSync(new URL('./Code.gs',import.meta.url),'utf8'),ctx);
+const call=(s)=>vm.runInContext(s,ctx);
+const sheet=(initial)=>({data:initial.map(r=>[...r]),getLastRow(){return this.data.length;},getMaxRows(){return 1000;},getRange(r,c,n=1,m=1){const self=this;return {getDisplayValues(){return Array.from({length:n},(_,i)=>Array.from({length:m},(_,j)=>String(self.data[r+i-1]?.[c+j-1]??'')));},getDisplayValue(){return this.getDisplayValues()[0][0];},setValues(values){values.forEach((v,i)=>{self.data[r+i-1]??=[];v.forEach((x,j)=>self.data[r+i-1][c+j-1]=x);});},setValue(v){this.setValues([[v]]);}};}});
+ctx.s=sheet([['header'],['id1','old','','','','','','','','手動承認','現行']]);
+call("BM_upsert_(s,[['id1','renamed','doc','url','new/path','t','t','確認','p'],['copy2','copy','doc','url','path','t','t','確認','p']])");
+assert.equal(ctx.s.data.length,3);assert.equal(ctx.s.data[1][1],'renamed');assert.equal(ctx.s.data[1][9],'手動承認');assert.equal(ctx.s.data[2][9],undefined);
+call("BM_upsert_(s,[['copy2','copy','doc','url','path','t','t','確認','p']])");assert.equal(ctx.s.data.length,3);
+console.log('PASS ID upsert / rename-move / preserve manual / copy blank / replay idempotency');
+ctx.s=sheet([['h'],['dup'],['dup']]);assert.throws(()=>call("BM_upsert_(s,[['dup','x']])"),/중복/);
+assert.equal(call("BM_text_('=IMPORTXML(\"x\",\"y\")')").charAt(0),"'");
+assert.equal(call("BM_document_({name:'photo.png',mimeType:'image/png'})"),false);
+assert.equal(call("BM_document_({name:'공문.hwpx',mimeType:'application/x-zip'})"),true);
+assert.equal(call("BM_location_({id:'f',name:'x',parents:['excluded']},{ROOT_ID:'root',excluded:new Set(['excluded'])},{})").exclude,true);
+assert.equal(call("BM_location_({id:'f',name:'문서',parents:['folder']},{ROOT_ID:'root',excluded:new Set()},{})").path,'BM/프로젝트/문서');
+assert.throws(()=>call("BM_location_({id:'f',name:'x',parents:['missing']},{ROOT_ID:'root',excluded:new Set()},{})"),/403/);
+console.log('PASS duplicate reject / formula injection / document selection / exclusions / parent path / access failure');
+// 実際の BM_sync を二ページで実行し、失敗ページのトークンが進まないことを検証。
+const props=new Map([['PAGE_TOKEN','page2'],['SCAN_STARTED','2026-01-01T00:00:00.000Z']]);
+ctx.PropertiesService={getScriptProperties:()=>({getProperty:k=>props.get(k),setProperty:(k,v)=>props.set(k,v),deleteProperty:k=>props.delete(k)})};
+ctx.LockService={getScriptLock:()=>({tryLock:()=>true,releaseLock(){}})};
+ctx.book={};ctx.BM_book_=()=>ctx.book;ctx.BM_cfg_=()=>({DRIVE_ID:'drive',ROOT_ID:'root',excluded:new Set()});ctx.BM_status_=()=>{};
+ctx.book.getSheetByName=()=>({getRange:()=>({getDisplayValues:()=>[call('BM_HEADERS')]})});
+ctx.Drive.Files.list=()=>({nextPageToken:'page3',files:[{id:'f',name:'a.pdf',mimeType:'application/pdf',parents:['root']}]});
+ctx.BM_upsert_=()=>{throw Error('write failed');};
+assert.throws(()=>call('BM_sync()'),/write failed/);assert.equal(props.get('PAGE_TOKEN'),'page2');
+console.log('PASS failed write retains page checkpoint; Google authorization/trigger/runtime not covered by mocks');
+

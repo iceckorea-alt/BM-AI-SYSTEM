@@ -1,6 +1,6 @@
 # BM-AI-SYSTEM
 
-BM Digital 1.0의 AI 운영 규정 공식 원본 저장소. 현재 규정 v3.15 (2026-11-11). AI 공지: `notices/`.
+BM Digital 1.0의 AI 운영 규정 공식 원본 저장소. 현재 규정 v3.16 (2026-11-15). AI 공지: `notices/`.
 
 현재 시스템 버전은 BM_CORE·Drive STARTER·CHANGELOG 기준이다. 각 문서 머리의 버전·날짜는 그 문서의 마지막 개정 기준이며, 내용 변경이 없는 문서는 이전 번호를 유지한다. BM_VISION·READ Schema·부록 Schema·플러그인 배포 버전은 별도 버전 체계다.
 
@@ -23,3 +23,6 @@ BM Digital 1.0의 AI 운영 규정 공식 원본 저장소. 현재 규정 v3.15 
 공식 원본 구분: GitHub=AI 규정 / Drive=실무자료·PROJECT_READ / Sheets=BM_PROJECT_INDEX / Airtable=BM_ACCESS_REGISTRY / Docswave=행정·결재
 
 Public 저장소다. 개인정보·계정정보·내부 리소스 ID·인증정보를 올리지 않는다.
+
+문서관리: `governance/ops/OPS_DOCUMENTS.md` / 수집기 코드·설치·검증: `integrations/document-registry/`. 실제 가동 상태와 내부 대장 위치는 비공개 STARTER·INDEX에서 확인한다.
+

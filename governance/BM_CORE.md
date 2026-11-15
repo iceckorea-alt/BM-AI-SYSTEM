@@ -1,6 +1,6 @@
 # BM_CORE — BM AI 공통 조약
 
-규정 v3.15 · 2026-11-11 · BM 규칙의 세부 원본. 매번 읽는 규칙은 Drive `BM_STARTER` 0장이며, 이 문서는 0장에 없는 세부가 필요할 때 해당 장만 읽는다. 업무별 상세는 OPS 파일.
+규정 v3.16 · 2026-11-15 · BM 규칙의 세부 원본. 매번 읽는 규칙은 Drive `BM_STARTER` 0장이며, 이 문서는 0장에 없는 세부가 필요할 때 해당 장만 읽는다. 업무별 상세는 OPS 파일.
 
 ## 1. 시작 순서
 `BM_STARTER 0장(Drive) → INDEX 접속요약 + 신규메일 → PROJECT_READ + 열린할일(그 프로젝트) → 필요한 원본만` (LOG는 경위가 필요할 때만, 이 문서·OPS는 세부가 필요할 때 해당 장만)
@@ -16,7 +16,7 @@
 
 ## 2. 원본 위치 (원본 1개 · 위치 1곳 · 링크는 여러 곳)
 사실 하나는 한 곳에만 값으로 적고, 다른 곳에는 링크만 둔다(INDEX `다음 할 일`·`접속요약`·`열린할일`은 `할일` 탭에서 수식으로 자동 계산되는 보기라 직접 쓰지 않는다).
-AI 규정=GitHub / 프로젝트 목록=Sheets `BM_PROJECT_INDEX` / 공통 문서 목록=INDEX `공통문서` 탭 / 프로젝트 기억=Drive `PROJECT_READ` / 할 일·작업진입·재개지점=INDEX `할일` 탭 / 사업 기회(프로젝트 전 단계: 기본계획·업무계획·공고)=INDEX `사업발굴` 탭, 원문·요약은 `00_BM공통/03_사업발굴` / 브랜드 정의=각 `_GUIDE` / 실무자료·산출물=Shared Drive `BM` / 계정·권한=Airtable `BM_ACCESS_REGISTRY` / 결재·인사·회계=Docswave / 디자인=Canva / 일정=Calendar / 대외소통=Gmail(원문) / 메일 1차 수집=INDEX `메일수집` 탭(Apps Script 자동수집, 메일 담당 AI가 우선 읽음) / 메일 처리 여부=INDEX `할일` 탭 / 메일 현황=INDEX `신규메일` 탭
+AI 규정=GitHub / 프로젝트 목록=Sheets `BM_PROJECT_INDEX` / 공통 문서 목록=INDEX `공통문서` 탭 / 프로젝트 기억=Drive `PROJECT_READ` / 할 일·작업진입·재개지점=INDEX `할일` 탭 / 사업 기회(프로젝트 전 단계: 기본계획·업무계획·공고)=INDEX `사업발굴` 탭, 원문·요약은 `00_BM공통의 기존 사업발굴 폴더(INDEX 링크·폴더ID 기준)` / 브랜드 정의=각 `_GUIDE` / 실무자료·산출물=Shared Drive `BM` / 계정·권한=Airtable `BM_ACCESS_REGISTRY` / 결재·인사·회계=Docswave / 디자인=Canva / 일정=Calendar / 대외소통=Gmail(원문) / 메일 1차 수집=INDEX `메일수집` 탭(Apps Script 자동수집, 메일 담당 AI가 우선 읽음) / 메일 처리 여부=INDEX `할일` 탭 / 메일 현황=INDEX `신규메일` 탭
 
 ## 3. 역할과 권한
 | 역할 | 할 수 있는 것 | 못 하는 것 |
@@ -72,12 +72,16 @@ AI 규정=GitHub / 프로젝트 목록=Sheets `BM_PROJECT_INDEX` / 공통 문서
 한 일 · 반영 위치 · 파일 저장 여부 · INDEX 반영/요청 여부 · 미확정사항, 그리고 다음 중 하나:
 `READ 저장·확인 완료` / `READ 변경 없음` / `READ 저장 미완료 — 사유와 복구할 내용`
 
+## 8-1. 문서관리 자동 적용
+모든 AI는 문서 찾기·생성·수정·복사·이동 업무에서 별도 지시 없이 INDEX 공통문서의 중앙 문서대장 → 필요한 원본을 확인하고, 결과물은 파일ID로 등록·재조회한다. 실제 자료는 기존 실무 폴더, 대장들은 공통 회사문서 폴더, 표준서식은 공통규정·서식의 문서서식 폴더를 사용한다. 자동수집은 메타데이터만 갱신하며 현재본·승인·발송을 추정하지 않는다. 공문은 결재된 원본 버전 확인 후 발급·날인·발송하고 승인과 발송을 구분한다. 수집기의 설치·실행상태를 확인하며, 미설치를 가동 중으로 표시하지 않는다. 상세는 `OPS_DOCUMENTS`.
+
 ## 9. 업무별로 추가로 읽을 것
 | 업무 | 파일 |
 |---|---|
 | 프로젝트 찾기·생성·INDEX·이동·파일명·시스템별 사용 | `governance/ops/OPS_PROJECT.md` |
 | 마감·결과보고·종료 | `governance/ops/OPS_CLOSING.md` + `templates/PROJECT_RESULT_REPORT_TEMPLATE.md` |
 | 계정·권한·Airtable·인증정보·보안 | `governance/ops/OPS_ACCESS.md` |
+| 문서 찾기·문서대장·서식·공문/견적·수집기 | `governance/ops/OPS_DOCUMENTS.md` |
 | 메일 확인·분류·신규메일 탭 | `governance/ops/OPS_MAIL.md` |
 | READ·LOG 새로 만들기·구조 변경 | `templates/PROJECT_READ_TEMPLATE.md` |
 | 새 직원·새 AI 투입, 퇴사·부재 | `governance/AGENT_ONBOARDING.md` |
@@ -87,3 +91,4 @@ AI 규정=GitHub / 프로젝트 목록=Sheets `BM_PROJECT_INDEX` / 공통 문서
 | 상위 원칙·우선순위 충돌 판단 | `governance/BM_DIGITAL_1.0.md` |
 
 읽기 주소: `https://raw.githubusercontent.com/iceckorea-alt/BM-AI-SYSTEM/main/` + 위 경로. 규정 변경 기록은 `CHANGELOG.md`. 이 문서를 바꾸면 같은 날 Drive `BM_STARTER` 0장(모든 AI용 필수 규칙 요약)도 맞춘다(시스템관리).
+
